@@ -1,0 +1,39 @@
+.bannercuotas0{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.bannercuotas{
+    width: 90%;
+    display: flex;
+    justify-content: start;
+ 
+}
+.bannercuotas div{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.box1{
+    
+    width:100%;
+    border-right: solid 2px;
+    border-color: rgb(0, 0, 0);
+    
+    
+}
+.bannercuotas div div p{
+    
+    font-size: 14px;
+    margin-top: 12px;
+    text-align: end;
+    font-family:'Courier New', Courier, monospace
+    
+}
+.bannercuotas img{
+    width: 40px;
+    margin: 20px;
+}
+.ultimobox{
+}

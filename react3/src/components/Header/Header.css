@@ -1,0 +1,137 @@
+.header0{
+    width: 100%;
+    height: 170px;
+    position: fixed;
+    margin-top: -200px;
+    z-index: 1000;
+    background-color: white; 
+    transition: all 1s;
+}
+.achicarImg{
+    box-shadow: 0px 7px 5px -5px rgba(0,0,0,0.26);
+    height: 140px;
+}
+
+.header{
+    display:flex;
+    justify-content: center;
+
+    
+}
+
+.header1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: -100px;
+}
+
+.buscador{
+    background-color: beige;
+}
+.logo {
+    background-color: rgba(0, 0, 0, 0);
+    width: 300px;
+    
+    margin-left: -100px;
+    transition: all 1s;
+}
+.logoachicar{
+    width: 220px;
+}
+.logo img {
+    width: 100%;
+    
+}
+
+.carrito{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat",Sans-serif;  
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    padding-top: 40px;
+    
+
+}
+.menu li a{
+    padding: 20px;    
+    text-decoration: none;
+    color: black;
+    
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    
+    box-shadow: 0px 5px 5px 2px rgba(0,0,0,0.26);
+  }
+
+  
+  .menu li:hover ul.submenu {
+    display: block;
+  }
+
+  .submenu li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -30px;
+    transition: all 1s;
+  }
+  .submenu li:hover{
+    color: rgb(129, 129, 129);
+  }
+
+  .menu li a:hover{
+    color: rgb(129, 129, 129);
+  }
+
+
+
+
+@media screen and (min-width: 768px) {
+   
+ /* Añade aquí los estilos para pantallas grandes */
+
+}
+
+
+/* Estilos para pantallas medianas */
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+ /* Añade aquí los estilos para pantallas medianas */
+
+}
+
+
+/* Estilos para pantallas pequeñas */
+
+@media screen and (max-width: 575px) {
+
+ /* Añade aquí los estilos para pantallas pequeñas */
+ .menu{
+    list-style: none;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    cursor: pointer;
+    font-family: "Montserrat",Sans-serif;  
+
+}
+}

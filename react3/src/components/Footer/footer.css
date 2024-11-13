@@ -1,0 +1,45 @@
+footer {
+    background-color: #cecece; /* light gray background */
+    padding: 20px; /* add some padding to the footer */
+    text-align: center; /* center the content */
+    
+  }
+  
+  footer ul {
+    list-style: none; /* remove bullet points */
+    margin: 0; /* remove margin */
+    padding-left: 10px; /* remove padding */
+    display: flex; /* make the list items inline */
+    justify-content: center; /* center the list items */
+    
+  }
+  
+  footer li {
+    margin-right: 30px; /* add some space between list items */
+  }
+  
+  footer a {
+    color: #337ab7; /* blue color for links */
+    text-decoration: none; /* remove underline */
+  }
+  
+  footer a:hover {
+    color: #23527c; /* darker blue on hover */
+  }
+  
+  .social-media {
+    margin-top: 20px; /* add some space between the list and social media links */
+  }
+  
+  .social-media a {
+    font-size: 24px; /* increase font size for social media icons */
+    margin-right: 30px; /* add some space between social media links */
+    color: #666; /* gray color for social media icons */
+  }
+  
+  .social-media img{
+    width: 25px;
+  }
+  .social-media a:hover {
+    color: #337ab7; /* blue color on hover for social media icons */
+  }

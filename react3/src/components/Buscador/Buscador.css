@@ -1,0 +1,19 @@
+.inputBuscador{
+    background: none;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid gray;
+    font-family: 'Inter', sans-serif;;
+}
+
+.botonBuscador{
+    background-color: rgba(155, 57, 57, 0);
+    font-family:'Inter', sans-serif;
+    width: 10px;
+    border: none;
+}
+.botonBuscador img{
+    width: 25px;
+}

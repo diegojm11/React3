@@ -1,0 +1,41 @@
+
+.cardContainerr{
+
+    text-decoration: none;
+    
+}
+
+.cardTitulo{
+    font-size: 16px;
+}
+.cardCategoria{
+    font-size: 14px;
+}
+.cardPrecio{
+font-size: 12px;
+font-weight:700;
+}
+.cardImg{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+.cardImg img{
+    width: 100%;
+}
+.cardDetalle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.linkcont{
+    text-decoration: none;
+    color: black;
+}
+.linkcont:hover{
+    text-decoration: none;
+    color: black;
+}

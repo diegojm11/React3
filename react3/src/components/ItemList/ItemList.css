@@ -1,0 +1,14 @@
+
+.itemlist0{
+ 
+    width:100%;
+}
+.itemlist{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}

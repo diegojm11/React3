@@ -1,0 +1,242 @@
+.consultaContainer{
+    background-position: 0%  ;
+    background-size:cover;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    
+
+}
+.contactoContainer1{
+    
+    
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: end;
+    margin-top: 50px;
+     
+   
+}
+
+.consulta{
+    color: rgb(0, 0, 0);
+    width: 40%;
+    padding-top: 80px;
+
+    
+}
+.consulta h1 {
+    font-size: 70px;
+    font-family: 'lora', sans-serif;
+    font-weight: 200;
+}
+.consulta p{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding-left: 10px
+}
+
+
+
+.formulario {
+    position: relative ;
+    display: grid;
+    width: 40vw;
+    grid-template-columns: repeat(autofit,minmax(100%,1fr));
+    margin: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+
+}
+ 
+.contenedorinbox{
+position: relative;
+margin: 12px; 
+
+}
+
+.motivo{
+    padding: 20px 0px 0px 0px;
+}
+.motivo select{
+    background-color: #c5c5c5;
+    border: 2px solid;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+
+.inputForm{
+    width: 100%;
+    background: none;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    border-bottom: 2px solid gray;
+    font-family: 'Inter', sans-serif;;
+}
+
+
+
+.inputForm:focus + .textoForm,
+.inputForm:not(:placeholder-shown) + .textoForm {
+    transform: translateY(-12px) scale(.8);
+    transform-origin: left top;
+    color: #b55050;
+}
+.textoForm{
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    left: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    transition: transform 1s;
+    transform: translateY(
+        10px
+    );
+}
+
+
+ .line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #a43e3e;
+    pointer-events: none; 
+    border-radius: 2px;
+    transform: scale(0);
+    transform: left bottom;
+    transition: 0.5s;
+    
+}
+
+
+.inputForm:focus ~ .line,
+.inputForm:not(:placeholder-shown) ~ .line{
+transform: scale(1);
+}
+
+
+.mensaje:focus + .textoForm,
+.mensaje:not(:placeholder-shown) + .textoForm {
+    transform: translateY(-12px) scale(.8);
+    transform-origin: left top;
+    color: #b55050;
+}
+.mensaje{
+    width: 100%;
+    height: 100px;
+    background: none;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    border-bottom: 2px solid gray;
+    font-family: 'Inter', sans-serif;
+    
+}
+.lineTextBox{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 5.5px;
+    background: #a43e3e;
+    pointer-events: none; 
+    border-radius: 2px;
+    transform: scale(0);
+    transform: left bottom;
+    transition: 0.5s;
+}
+.mensaje:focus ~ .lineTextBox,
+.mensaje:not(:placeholder-shown) ~ .lineTextBox{
+transform: scale(1);
+}
+
+.boton{
+    background-color: rgb(155, 57, 57);
+    color: white;
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    width: 160px;
+    height: 60px;
+    
+    font-size: 1.4rem;
+
+    
+    margin: 20px;
+    border: none;
+    
+}
+
+@media (max-width: 600px){
+    
+    .contactoContainer1{
+        display: flex;
+        flex-direction:column;
+        align-items: start;
+        justify-content: end;
+        margin-top: 40px;
+        
+        margin-bottom: 50px;
+       
+    }
+    .consulta{
+        color: white;
+        width: 90%;
+        
+        padding-top: 0px;
+        margin-left: 20px;
+        
+    
+        
+    }
+    .consulta h1 {
+        width: 90%;
+        font-size: 25px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        text-align: start;
+        overflow: hidden;
+    }
+    .consulta p{
+        width: 90%;
+        text-align: start;
+        font-size: 18px;
+        margin: 10px;
+        overflow: hidden;
+    }
+
+    .formulario {
+        position: relative ;
+        display: grid;
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+        color: white;
+    
+    }
+
+    .contactoContainer2{
+        display: flex;
+        flex-direction:column;
+        align-items: start;
+        justify-content: end;
+        margin-top: 40px;
+        margin-bottom: 50px;
+         
+       
+    }
+    
+}

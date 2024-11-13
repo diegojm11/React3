@@ -1,0 +1,45 @@
+.DetalleProductoContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.DetalleProductoContainer2{
+    width: 90%;
+    display:flex;
+    flex-direction:row;
+}
+
+.productoImg{width: 50%;}
+.productoImg img{width: 100%;}
+
+.DetalleProducto{
+    
+    width: 40%;
+    margin-left: 40px;
+}
+.DetalleProducto2{
+    font-family: "Manrope", sans-serif;
+    color: rgb(52, 52, 52);
+    border-bottom: 1px solid gray;
+    
+}
+.tituloDetalle{
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.PrecioDetalle{
+    font-weight: 800;
+    font-style:italic;
+    font-size: 40px;
+}
+
+.StockDetalle{
+    font-size: 18px;
+}
+
+.descripcion{
+    width: 40%;
+}

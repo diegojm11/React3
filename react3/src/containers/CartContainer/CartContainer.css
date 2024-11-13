@@ -1,0 +1,97 @@
+
+
+    .carritoCont{height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .carritoCont1{
+        width: 700px;
+        height: 500px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .carritoTitulo{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(197, 197, 197);
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        padding: 20px;
+    }
+   
+    .carritoProductos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+        border-bottom: 1px solid rgb(197, 197, 197);
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .carritoProductoCont{
+        display: flex;
+        
+    }
+  
+    .carritoFoto img{
+        width: 100px;
+    }
+
+
+        .carritoVacio{ 
+            height: 200px;}
+ 
+     .detalleProdCart{
+        align-self: center;
+        margin-left: 15px;
+     }
+     .totalbox{
+           
+        border-bottom: 1px solid rgb(197, 197, 197);
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: space-between;     
+        padding: 20px;
+     }
+     .preciobox{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+
+     }
+     .preciobox p{
+        margin-right: 10px;
+        margin-top: 5px;
+     }
+     .preciobox button{
+        border-style: none;
+        background-color: white;
+     }
+     .preciobox img{
+        width: 30px;
+     }
+
+     .btnIniciarCompra{
+        background-color: rgb(208, 163, 0);
+        color: white;
+        font-family:'Inter', sans-serif;
+        font-weight: 400;
+        width: 160px;
+        height: 60px;
+        
+        font-size: 1.4rem;
+        align-self: end;
+        
+        margin: 20px;
+        border: none;
+     }
+
+     .formCont{
+        display: flex;
+        justify-content: end;
+     }
