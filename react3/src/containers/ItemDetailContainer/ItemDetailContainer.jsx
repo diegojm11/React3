@@ -5,6 +5,7 @@ import { gFetch } from "../../helpers/gFetch"
 import ItemDetail from "../../components/ItemDetail/ItemDetail"
 import Loading from "../../components/Loading/Loading"
 import { doc, getDoc, getFirestore } from "firebase/firestore"
+import { db } from "../../firestore/config"
 
 
 // funcioón 
@@ -17,7 +18,6 @@ const ItemDetailContainer = () => {
     // console.log(productId)
 
     useEffect(()=>{        
-        const db = getFirestore()
         const queryDoc = doc(db, 'productos',  productId)
         getDoc(queryDoc)
         .then(resp => setProduct( { id: resp.id,...resp.data()} ))

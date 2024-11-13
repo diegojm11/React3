@@ -5,6 +5,7 @@ import { useCartContext } from "../../context/CartContext"
 import './CartContainer.css'
 import ItemCount from "../../components/ItemCount/ItemCount"
 import trash from '../../assets/trash.svg'
+import { db } from "../../firestore/config"
 
 const CartContainer = () => {
   const [ dataForm, setFormData ] =  useState({
@@ -25,7 +26,6 @@ const CartContainer = () => {
     order.price = precioTotal()
     order.items = cartList.map( ( { id, price, name } ) => ( {id, price, name} ) )
     
-    const db = getFirestore()
     const queryCollection = collection(db, 'orders')
 
     // muchas ordenes 
