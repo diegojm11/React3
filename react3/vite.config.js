@@ -10,6 +10,12 @@ export default defineConfig({
     target: 'esnext', // Establece el objetivo de construcción
     sourcemap: true,   // Genera mapas de origen si los necesitas
   },
+  server: {
+    mimeTypes: {
+      // Asegúrate de que Vite sirva los archivos JS con el tipo MIME correcto
+      'application/javascript': ['js'],
+    }},
+
   optimizeDeps: {
     include: ['firebase'],  // Asegúrate de que Firebase esté incluido en la optimización de dependencias
   },
