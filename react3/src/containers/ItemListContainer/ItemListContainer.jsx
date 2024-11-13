@@ -6,7 +6,8 @@ import Loading from '../../components/Loading/Loading'
 import { gFetch } from '../../helpers/gFetch'
 import './itemlistcontainer.css'
 import BannerCuotas from '../../components/Bannercuotas/bannercuotas'
-import { db } from './firestore/config';
+;
+import { db } from '../../firestore/config'
 
 // acciones  api -> resultado (asincrónico)
 

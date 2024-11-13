@@ -19,6 +19,12 @@ export default defineConfig({
   optimizeDeps: {
     include: ['firebase'],  // Asegúrate de que Firebase esté incluido en la optimización de dependencias
   },
+  alias: {
+    'firebase': 'firebase/app', // Asegura la ruta correcta al paquete principal de Firebase
+  },
+  optimizeDeps: {
+    include: ['firebase/app', 'firebase/auth', 'firebase/firestore']
+  }
 })
 
 
